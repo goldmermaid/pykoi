@@ -61,11 +61,11 @@ class AbsVectorDb(ABC):
         path_obj = Path(doc_path)
         if path_obj.is_file():
             # Handle the case where DOC_PATH is a file
-            self._extract_from_file(doc_path)
+            self._extract_from_file(path_obj)
         elif path_obj.is_dir():
             # Handle the case where DOC_PATH is a directory
             for ext in [".pdf", ".docx", ".txt"]:
-                self._extract_from_directory(doc_path, ext)
+                self._extract_from_directory(path_obj, ext)
         else:
             # Handle the case where DOC_PATH is neither a file nor a directory
             print("DOC_PATH is neither a file nor a directory!")
