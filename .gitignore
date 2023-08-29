@@ -174,7 +174,8 @@ cython_debug/
 *.csv
 rlhf_tests
 test_data
-example/flex/
+example/flex/docs
+example/flex/flex_sample
 
 # mac
 .DS_Store
