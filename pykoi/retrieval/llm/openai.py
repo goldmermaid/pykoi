@@ -29,8 +29,9 @@ class OpenAIModel(AbsLlm):
                 llm=llm,
                 chain_type="stuff",
                 retriever=vector_db.as_retriever(search_kwargs={"k": MIN_DOCS}),
-                verbose=True
-            )
+                verbose=True, 
+                return_source_documents=True
+                )
 
             super().__init__(retrieve_qa)
         except Exception as ex:
