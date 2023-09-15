@@ -1,6 +1,11 @@
 
 # :whale2: pykoi: Active learning in one unified interface :ocean:!
-
+<p align="center">
+  <a href="/LICENSE"><img alt="License Apache-2.0" src="https://img.shields.io/github/license/cambioml/pykoi?style=flat-square"></a>
+  <a href="https://pypi.org/project/pykoi"><img src="https://img.shields.io/pypi/v/pykoi.svg" alt="pypi_status" /></a>
+  <a href="https://github.com/cambioml/pykoi/graphs/commit-activity"><img alt="Commit activity" src="https://img.shields.io/github/commit-activity/m/cambioml/pykoi?style=flat-square"/></a>
+  <a href="https://join.slack.com/t/cambiomlworkspace/shared_invite/zt-1zes33rmt-20Rag043uvExUaUdvt5_xQ"><img src="https://badgen.net/badge/Join/Community/cyan?icon=slack" alt="Slack" /></a>
+</p>
 
 ## :seedling: Installation
 To get started to `pykoi`, we recommend you test on an EC2 instance instance with the following config:
